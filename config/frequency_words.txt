@@ -149,28 +149,30 @@
 
 [WORD_GROUPS]
 
-/qwen|minimax|glm/ => 国产开源模型
+原神|Genshin|崩坏星穹铁道| => 米哈游
 
-/\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
-/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+# /qwen|minimax|glm/ => 国产开源模型
+
+# /\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
+# /\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
 
 
 # ═══════════════════════════════════════════════════════════════
 #                         科技领域
 # ═══════════════════════════════════════════════════════════════
 
-[AI 相关]
-/(?<![a-zA-Z])ai(?![a-zA-Z])/
-人工智能
-\bvibe coding\b|\bVibe Coding\b|氛围编程|氛围编码
-\bspec coding\b|\bSpec Coding\b|\bspec-driven development\b|\bSpec-Driven Development\b|\bspec-driven coding\b|\b规范驱动开发\b|\b规格驱动编码\b|\bSpecKit\b|\bOpenSpec\b
+# [AI 相关]
+# /(?<![a-zA-Z])ai(?![a-zA-Z])/
+# 人工智能
+# \bvibe coding\b|\bVibe Coding\b|氛围编程|氛围编码
+# \bspec coding\b|\bSpec Coding\b|\bspec-driven development\b|\bSpec-Driven Development\b|\bspec-driven coding\b|\b规范驱动开发\b|\b规格驱动编码\b|\bSpecKit\b|\bOpenSpec\b
 
-具身智能
+# 具身智能
 
-[计算机视觉与图形]
-\b计算机视觉\b|\bComputer Vision\b|\bCV\b|\bOpenCV\b|\bYOLO\b|\bDetectron\b|\bMMDetection\b|\bOpenMMLab\b|\b李飞飞\b|\bFei-Fei Li\b
-\b计算机图形学\b|\bComputer Graphics\b|\bCG\b|\b图形学\b|\bSIGGRAPH\b|\bOpenGL\b|\bVulkan\b|\bDirect3D\b|\bDirectX\b|\bUnity\b|\bUnreal\b|\bBlender\b|\bMaya\b|\b3ds Max\b|\bNVIDIA Omniverse\b|\b皮克斯\b|\bPixar\b|\bRenderMan\b|\b英伟达\b|\bNVIDIA\b|\b黄仁勋\b|\bJensen Huang\b|\b谢尔盖·布林\b|\bSergey Brin\b
+# [计算机视觉与图形]
+# \b计算机视觉\b|\bComputer Vision\b|\bCV\b|\bOpenCV\b|\bYOLO\b|\bDetectron\b|\bMMDetection\b|\bOpenMMLab\b|\b李飞飞\b|\bFei-Fei Li\b
+# \b计算机图形学\b|\bComputer Graphics\b|\bCG\b|\b图形学\b|\bSIGGRAPH\b|\bOpenGL\b|\bVulkan\b|\bDirect3D\b|\bDirectX\b|\bUnity\b|\bUnreal\b|\bBlender\b|\bMaya\b|\b3ds Max\b|\bNVIDIA Omniverse\b|\b皮克斯\b|\bPixar\b|\bRenderMan\b|\b英伟达\b|\bNVIDIA\b|\b黄仁勋\b|\bJensen Huang\b|\b谢尔盖·布林\b|\bSergey Brin\b
 
-[电商业务]
-\b柔性供应链\b|\b柔性制造\b|\b小单快反\b|\b按需生产\b|\b敏捷供应链\b|\b弹性供应链\b|\bSHEIN\b|\b希音\b|\b辛巴达\b|\b易德龙\b|\b唐派集团\b
-\bPrint on Demand\b|\bPOD\b|\b按需印刷\b|\b按需打印\b|\bPrintful\b|\bPrintify\b|\bFyul\b|\bGelato\b|\bZazzle\b|\bRedbubble\b|\bTeespring\b|\bSpring\b|\bGooten\b
+# [电商业务]
+# \b柔性供应链\b|\b柔性制造\b|\b小单快反\b|\b按需生产\b|\b敏捷供应链\b|\b弹性供应链\b|\bSHEIN\b|\b希音\b|\b辛巴达\b|\b易德龙\b|\b唐派集团\b
+# \bPrint on Demand\b|\bPOD\b|\b按需印刷\b|\b按需打印\b|\bPrintful\b|\bPrintify\b|\bFyul\b|\bGelato\b|\bZazzle\b|\bRedbubble\b|\bTeespring\b|\bSpring\b|\bGooten\b
